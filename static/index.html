@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FloodPredict Ghana</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>FloodPredict Ghana</h1>
+      <p class="subtitle">AI flood risk forecast for all 16 regions</p>
+    </div>
+    <div id="refresh-info">Loading live forecast&hellip;</div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <div id="map"></div>
+      <div class="legend">
+        <span class="legend-item"><span class="dot" style="background:#22c55e"></span>Low</span>
+        <span class="legend-item"><span class="dot" style="background:#eab308"></span>Moderate</span>
+        <span class="legend-item"><span class="dot" style="background:#f97316"></span>High</span>
+        <span class="legend-item"><span class="dot" style="background:#ef4444"></span>Severe</span>
+      </div>
+    </section>
+
+    <section class="panel side">
+      <div id="region-detail">
+        <h2>Select a region</h2>
+        <p class="muted">Click a marker on the map or a region in the list to see its 7-day flood forecast.</p>
+      </div>
+      <div id="region-list"></div>
+    </section>
+  </main>
+
+  <footer>
+   Powered by Open-Meteo (ERA5 archive, weather &amp; GloFAS discharge forecasts) &middot;
+    RandomForest risk model &middot; Experimental, not for emergency decisions.
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+[
+  {"id": "greater-accra", "name": "Greater Accra", "capital": "Accra", "lat": 5.5560, "lon": -0.1969},
+  {"id": "ashanti", "name": "Ashanti", "capital": "Kumasi", "lat": 6.6885, "lon": -1.6244},
+  {"id": "northern", "name": "Northern", "capital": "Tamale", "lat": 9.4008, "lon": -0.8393},
+  {"id": "western", "name": "Western", "capital": "Sekondi-Takoradi", "lat": 4.9347, "lon": -1.7137},
+  {"id": "central", "name": "Central", "capital": "Cape Coast", "lat": 5.1315, "lon": -1.2795},
+  {"id": "eastern", "name": "Eastern", "capital": "Koforidua", "lat": 6.0941, "lon": -0.2591},
+  {"id": "volta", "name": "Volta", "capital": "Ho", "lat": 6.6009, "lon": 0.4713},
+  {"id": "western-north", "name": "Western North", "capital": "Sefwi Wiawso", "lat": 6.2085, "lon": -2.4933},
+  {"id": "ahafo", "name": "Ahafo", "capital": "Goaso", "lat": 6.7950, "lon": -2.5167},
+  {"id": "bono", "name": "Bono", "capital": "Sunyani", "lat": 7.3349, "lon": -2.3268},
+  {"id": "bono-east", "name": "Bono East", "capital": "Techiman", "lat": 7.5848, "lon": -1.9475},
+  {"id": "oti", "name": "Oti", "capital": "Dambai", "lat": 7.9000, "lon": 0.1667},
+  {"id": "savannah", "name": "Savannah", "capital": "Damongo", "lat": 9.0764, "lon": -1.8206},
+  {"id": "north-east", "name": "North East", "capital": "Nalerigu", "lat": 10.5300, "lon": -0.3667},
+  {"id": "upper-east", "name": "Upper East", "capital": "Bolgatanga", "lat": 10.7856, "lon": -0.8514},
+  {"id": "upper-west", "name": "Upper West", "capital": "Wa", "lat": 10.0601, "lon": -2.5099}
+]
